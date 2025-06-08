@@ -14,7 +14,6 @@ using std::cin;
 
 int main()
 {
-
     int ano_nascimento{}, ano_atual{};
 
     cout << "Qual o ano de nascimento da pessoa? ";
@@ -32,3 +31,5 @@ int main()
 
     return 0;
 }
+
+// Completed

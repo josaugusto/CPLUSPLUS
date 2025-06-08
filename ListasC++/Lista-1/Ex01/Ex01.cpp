@@ -18,7 +18,6 @@ int main()
 
 	cout << "A soma do numero " << num_1 << " e o numero " << num_2 << " eh igual a " << soma;
 
-
 	return 0;
 }
 

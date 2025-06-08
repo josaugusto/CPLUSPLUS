@@ -21,6 +21,7 @@ int main()
 
     cout << "A quantidade de salarios minimos que o funcionarios recebe eh: " << qtd_salarios << " salarios minimos.";
 
-    
     return 0;
 }
+
+// Completed

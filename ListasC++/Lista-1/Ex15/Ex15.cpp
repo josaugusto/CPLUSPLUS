@@ -24,7 +24,6 @@ int main()
 
     cout << "Apos o pagamento das contas e multa o salario final eh: " << salario_restante;
     
-
     return 0;
 }
 

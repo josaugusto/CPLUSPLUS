@@ -18,6 +18,7 @@ int main()
 
     cout << "O valor da hipotenusa eh: " << hipotenusa;
 
-
     return 0;
 }
+
+// Completed

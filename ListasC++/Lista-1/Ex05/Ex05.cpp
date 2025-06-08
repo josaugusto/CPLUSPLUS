@@ -16,7 +16,6 @@ int main()
 
 	cout << "O preco do produto apos o desconto de 10% eh igual a: " << novo_preco << " R$";
 
-
 	return 0;
 }
 

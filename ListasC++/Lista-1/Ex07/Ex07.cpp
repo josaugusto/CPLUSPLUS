@@ -25,7 +25,6 @@ int main()
 	cout << "O seu peso caso voce engorde 15% eh de: " << peso_engordar << endl;
 	cout << "O seu peso caso voce emagreca 20% eh de: " << peso_emagrecer << endl;
 
-
 	return 0;
 }
 
