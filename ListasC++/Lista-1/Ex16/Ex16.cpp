@@ -1,10 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-using std::cout;
-using std::cin;
-using std::pow;
-using std::sqrt;
+using namespace std;
 
 // 16. Faça um programa que receba o valor dos catetos de um triângulo, calcule e mostre o valor da hipotenusa.
 
