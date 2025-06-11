@@ -3,6 +3,11 @@
 using std::cout;
 using std::cin;
 
+/*
+    Faça um programa que receba o número de lados de um polígono convexo, calcule e mostre o número de diagonais 
+    desse polígono, onde N é o número de lados do polígono. Sabe-se que ND = N(N − 3)/2.
+*/
+
 int main()
 {
     int n_lados{}, n_diagonais{};
