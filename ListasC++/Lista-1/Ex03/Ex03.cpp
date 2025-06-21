@@ -19,7 +19,7 @@ int main()
 
 	float div{ num_1 / num_2 };
 
-	cout << "A div. de " << num_2 << " por " << num_2 << " eh igual a " << div;
+	cout << num_1 << " / " << num_2 << " = " <<  div;
 
 	return 0;
 }
