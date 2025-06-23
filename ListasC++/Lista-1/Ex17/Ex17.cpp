@@ -13,7 +13,8 @@ using namespace std;
 
 int main()
 {
-    double raio{}, comprimento{}, area{}, volume{}, pi{3.14};
+    double raio{}, comprimento{}, area{}, volume{};
+    const double pi{ 3.1415926535897 };
 
     cout << "Qual o raio da esfera? ";
     cin >> raio;

@@ -19,8 +19,8 @@ int main()
     cout << "Altura (m): ";
     cin >> altura;
 
-    float area{base * altura}; 
-    float potencia{area * 18};
+    float area{ base * altura }; 
+    float potencia{ area * 18 };
 
     cout << "A potencia devera ser de: " << potencia << " W";
 

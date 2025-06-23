@@ -12,7 +12,7 @@ int main()
     cout << "Qual eh a temperatura em celcius(C)? ";
     cin >> celcius;
 
-    fahrenheit = (celcius * 9/5) + 32;
+    fahrenheit = (celcius * 9.0f/5.0f) + 32;
 
     cout << "A temperatura em fahrenheit eh: " << fahrenheit << " F";
 
