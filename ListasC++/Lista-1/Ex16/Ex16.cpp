@@ -14,7 +14,7 @@ int main()
     cout << "Informe o valor do cateto B: ";
     cin >> cateto_b;
 
-    double hipotenusa = sqrt(pow(cateto_a, 2) + pow(cateto_b, 2));
+    double hipotenusa{ sqrt(pow(cateto_a, 2) + pow(cateto_b, 2)) };
 
     cout << "O valor da hipotenusa eh: " << hipotenusa;
 
