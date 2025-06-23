@@ -12,15 +12,13 @@ using std::cin;
 
 int main()
 {
-	double peso{};
+	float peso{};
 
 	cout << "Qual seu peso(kg)? ";
 	cin >> peso;
 
-	double peso_engordar{}, peso_emagrecer{};
-
-	peso_engordar = peso + (peso * 0.15);
-	peso_emagrecer = peso - (peso * 0.20);
+	float peso_engordar{ peso + peso * 0.15f }; 
+	float peso_emagrecer{ peso - peso * 0.20f };
 
 	cout << "O seu peso caso voce engorde 15% eh de: " << peso_engordar << endl;
 	cout << "O seu peso caso voce emagreca 20% eh de: " << peso_emagrecer << endl;

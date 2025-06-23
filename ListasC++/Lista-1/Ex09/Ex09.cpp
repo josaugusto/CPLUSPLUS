@@ -7,7 +7,7 @@ using std::cin;
 
 int main()
 {
-    double base_maior{}, base_menor{}, altura{};
+    float base_maior{}, base_menor{}, altura{};
 
     cout << "Qual o valor da base maior do trapezio (cm)? ";
     cin >> base_maior;
@@ -16,7 +16,7 @@ int main()
     cout << "Qual o valor da altura do trapezio (cm)? ";
     cin >> altura;
 
-    double area = ((base_maior + base_menor) * altura) / 2;
+    float area{ ((base_maior + base_menor) * altura) / 2.0f };
 
     cout << "A area do trapezio eh: " << area << " cm.";
     

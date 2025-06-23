@@ -7,14 +7,14 @@ using std::cin;
 
 int main()
 {
-    double diagonal_maior{}, diagonal_menor{};
+    float diagonal_maior{}, diagonal_menor{};
 
     cout << "Qual o valor da diagonal maior do losango (cm)? ";
     cin >> diagonal_maior;
     cout << "Qual o valor da diagonal menor do losango (cm)? ";
     cin >> diagonal_menor;
 
-    double area = (diagonal_maior * diagonal_menor) / 2;
+    float area{ (diagonal_maior * diagonal_menor) / 2.0f };
 
     cout << "A area do losango eh: " << area << " cm";
 

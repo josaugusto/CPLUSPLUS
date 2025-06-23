@@ -7,12 +7,12 @@ using std::cin;
 
 int main()
 {
-    double lado{};
+    float lado{};
 
     cout << "Qual o valor do lado do quadro (cm)? ";
     cin >> lado;
 
-    double area = lado * lado;
+    float area{ lado * lado };
 
     cout << "A area do quadro eh (cm): " << area;
 

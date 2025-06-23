@@ -7,12 +7,12 @@ using std::cin;
 
 int main()
 {
-	double price{};
+	float price{};
 
 	cout << "Insira o preco do produto: ";
 	cin >> price;
 
-	double new_price{ price - (price * 0.10) };
+	float new_price{ price - price * 0.10f };
 
 	cout << "O preco do produto apos o desconto de 10% eh igual a: " << new_price << " R$";
 

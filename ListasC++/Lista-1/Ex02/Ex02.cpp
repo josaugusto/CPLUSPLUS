@@ -16,7 +16,7 @@ int main()
     cout << "Insira o terceiro numero: ";
     cin >> num_3;
 
-    int multiplicacao = num_1 * num_2 * num_3;
+    int multiplicacao{ num_1 * num_2 * num_3 };
 
     cout << "O resultado da multiplicao dos tres numeros eh: " << multiplicacao;
 

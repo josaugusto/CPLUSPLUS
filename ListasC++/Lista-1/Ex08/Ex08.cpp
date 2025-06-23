@@ -11,7 +11,7 @@ int main()
 	cout << "Qual seu peso em kg? ";
 	cin >> peso_kg;
 
-	double peso_g = peso_kg * 1000;
+	double peso_g{ peso_kg * 1000 };
 
 	cout << "O seu peso em gramas eh: " << peso_g << " g";
 	

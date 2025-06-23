@@ -21,8 +21,10 @@ int main()
     cout << "Qual o ano atual? ";
     cin >> ano_atual;
 
-    int idade{ano_atual - ano_nascimento}, idade_meses{idade * 12}, 
-    idade_dias{idade * 365}, idade_semanas{idade_dias / 7};
+    int idade{ano_atual - ano_nascimento}; 
+    int idade_meses{idade * 12}; 
+    int idade_dias{idade * 365}; 
+    int idade_semanas{idade_dias / 7};
 
     cout << "Idade em anos: " << idade << '\n';
     cout << "Idade em meses: " << idade_meses << '\n';
