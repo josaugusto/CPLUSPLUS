@@ -27,7 +27,6 @@ int main()
     cout << "Total de minutos: " << total_minutos << '\n';
     cout << "Total em segundos: " << total_segundos << '\n';
 
-
     return 0;
 }
 
