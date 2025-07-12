@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 /*
     14. Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:

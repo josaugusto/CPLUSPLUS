@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 /*
 	4. Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas notas, considerando peso 2 para a primeira nota e peso 3 para a segunda nota.

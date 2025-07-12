@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 // 18. Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit. Sabe-se que: F = (C × 9/5) + 32
 

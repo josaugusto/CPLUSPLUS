@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 /*
    Faça um programa que receba o número de horas trabalhadas, o valor do salário mínimo e o número de horas extras trabalhadas. Calcule e mostre o salário a receber seguindo as regras a seguir:

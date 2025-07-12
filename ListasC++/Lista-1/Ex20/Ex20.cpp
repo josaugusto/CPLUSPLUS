@@ -1,10 +1,12 @@
 #include <iostream>
-#include <cmath> // Para cos() e M_PI
+#include <cmath> // Para cos()
 
 using namespace std;
 
 int main() {
+
     double angulo_graus, distancia_parede, angulo_radianos, medida_escada;
+    constexpr double PI = 3.1415;
 
     // Entrada de dados
     cout << "Digite o angulo formado com o chao (em graus): ";
@@ -14,7 +16,7 @@ int main() {
     cin >> distancia_parede;
 
     // Conversão de graus para radianos
-    angulo_radianos = angulo_graus * M_PI / 180.0;
+    angulo_radianos = angulo_graus * PI / 180.0;
 
     // Cálculo da medida da escada (hipotenusa)
     medida_escada = distancia_parede / cos(angulo_radianos);

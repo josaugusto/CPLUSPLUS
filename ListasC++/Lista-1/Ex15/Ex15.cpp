@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 /*
     15. João recebeu seu salário e precisa pagar duas contas que estão atrasadas. Como as contas estão atrasadas, 

@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 /*
      12. Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, 

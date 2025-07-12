@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 /*
     Faça um programa que receba o número de lados de um polígono convexo, calcule e mostre o número de diagonais 

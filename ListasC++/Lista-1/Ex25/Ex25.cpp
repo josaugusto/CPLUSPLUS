@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 /*
     Faça um programa que receba uma hora (uma variável para hora e outra para minutos), calcule e mostre:

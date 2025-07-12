@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 // 8. Faça um programa que receba o peso de uma pessoa em quilos, calcule e mostre esse peso em gramas.
 

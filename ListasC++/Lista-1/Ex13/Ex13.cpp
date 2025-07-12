@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 // 13. Faça um programa que calcule e mostre a tabuada de um número digitado pelo usuário.
 

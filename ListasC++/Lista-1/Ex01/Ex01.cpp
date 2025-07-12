@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 // 1. Faça um programa que receba dois números, calcule e mostre a subtração do primeiro número pelo segundo.
 

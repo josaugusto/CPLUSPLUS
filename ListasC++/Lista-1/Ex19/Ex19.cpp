@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 /*
     19. Sabe-se que para iluminar de maneira correta os cômodos de uma casa, para cada m², 

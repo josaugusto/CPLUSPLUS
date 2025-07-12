@@ -1,7 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
+using std::cout, std::cin;
 
 // 2. Faça um programa que receba três números, calcule e mostre a multiplicação desses números.
 
