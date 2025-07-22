@@ -9,16 +9,16 @@ using std::cout, std::cin;
 
 int main()
 {
-    float angulo_1{}, angulo_2{}, angulo_3{};
+    float angulo1{}, angulo2{}, angulo3{};
 
     cout << "Angulo 1: ";
-    cin >> angulo_1;
+    cin >> angulo1;
     cout << "Angulo 2: ";
-    cin >> angulo_2;
+    cin >> angulo2;
     
-    angulo_3 = 180 - (angulo_1 + angulo_2);
+    angulo3 = 180 - (angulo1 + angulo2);
 
-    cout << "A medida do angulo 3 do triangulo eh: " << angulo_3;
+    cout << "A medida do angulo 3 do triangulo eh: " << angulo3;
 
     return 0;
 }
