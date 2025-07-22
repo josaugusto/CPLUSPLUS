@@ -16,18 +16,18 @@ using std::cout, std::cin;
 
 int main()
 {
-    float dinheiro_reais{};
+    float dinheiroReais{};
 
     cout << "Dinheiro em reais(R$): ";
-    cin >> dinheiro_reais;
+    cin >> dinheiroReais;
 
-    float dinheiro_dolares{ dinheiro_reais * 1.80f }; 
-    float dinheiro_alemao{ dinheiro_reais * 2.00f }; 
-    float dinheiro_libra{ dinheiro_reais * 1.57f };
+    float dinheiroDolares{ dinheiroReais * 1.80f }; 
+    float dinheiroAlemao{ dinheiroReais * 2.00f }; 
+    float dinheiroLibra{ dinheiroReais * 1.57f };
 
-    cout << "Reais para Dolar: " << dinheiro_dolares << " US$" << '\n';
-    cout << "Reais para Marco Alemao: " << dinheiro_alemao << " DM" << '\n';
-    cout << "Reais para Libra: " << dinheiro_libra << " £" << '\n';
+    cout << "Reais para Dolar: " << dinheiroDolares << " US$" << '\n';
+    cout << "Reais para Marco Alemao: " << dinheiroAlemao << " DM" << '\n';
+    cout << "Reais para Libra: " << dinheiroLibra << " £" << '\n';
 
     return 0;
 }
