@@ -3,28 +3,28 @@
 using std::cout, std::cin;
 
 /*
-    Faça um programa que receba uma hora (uma variável para hora e outra para minutos), calcule e mostre:
-        a) a hora digitada convertida em minutos;
+    Faça um programa que receba uma horas (uma variável para horas e outra para minutos), calcule e mostre:
+        a) a horas digitada convertida em minutos;
         b) o total dos minutos, ou seja, os minutos digitados mais a conversão anterior;
         c) o total dos minutos convertidos em segundos.
 */
 
 int main()
 {
-    int hora{}, minutos{};
+    int horas{}, minutos{};
 
-    cout << "Hora: ";
-    cin >> hora;
+    cout << "horas: ";
+    cin >> horas;
     cout << "Minutos: ";
     cin >> minutos;
 
-    int hora_em_minutos = hora * 60;
-    int total_minutos = hora_em_minutos + minutos;
-    int total_segundos = total_minutos * 60;
+    int horasMinutos = horas * 60;
+    int totalMinutos = horasMinutos + minutos;
+    int totalSegundos = totalMinutos * 60;
 
-    cout << "Hora convertida em minutos: " << hora_em_minutos << '\n';
-    cout << "Total de minutos: " << total_minutos << '\n';
-    cout << "Total em segundos: " << total_segundos << '\n';
+    cout << "horas em minutos: " << horasMinutos << '\n';
+    cout << "Total de minutos: " << totalMinutos << '\n';
+    cout << "Total de segundos: " << totalSegundos << '\n';
 
     return 0;
 }
