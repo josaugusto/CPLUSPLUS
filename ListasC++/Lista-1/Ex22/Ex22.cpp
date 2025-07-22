@@ -9,14 +9,14 @@ using std::cout, std::cin;
 
 int main()
 {
-    int n_lados{}, n_diagonais{};
+    int numLados{}, numDiagonais{};
 
     cout << "Lados do poligono: ";
-    cin >> n_lados;
+    cin >> numLados;
 
-    n_diagonais = n_lados * (n_lados - 3) / 2;
+    numDiagonais = numLados * (numLados - 3) / 2;
 
-    cout << "O numero de diagonais desse poligono eh: " << n_diagonais;
+    cout << "O numero de diagonais eh: " << numDiagonais;
 
     return 0;
 }
