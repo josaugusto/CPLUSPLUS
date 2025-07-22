@@ -4,7 +4,7 @@ using std::cout, std::cin;
 
 /*
   3. Faça um programa que receba dois números, calcule e mostre a divisão do primeiro número pelo segundo.
-     Sabe-se que o segundo número não pode ser zero, portanto não é necessário se preocupar com validações.
+	Sabe-se que o segundo número não pode ser zero, portanto não é necessário se preocupar com validações.
 */
 
 int main()
@@ -17,7 +17,7 @@ int main()
 	cin >> num_2;
 
 	float div{ num_1 / num_2 };
-
+	
 	cout << num_1 << " / " << num_2 << " = " <<  div;
 
 	return 0;

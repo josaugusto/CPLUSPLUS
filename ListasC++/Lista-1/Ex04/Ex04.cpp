@@ -17,7 +17,7 @@ int main()
 
 	float resultado{ (nota_1 * 2 + nota_2 * 3) / 2 };
 
-	cout << "O resultado eh: " << resultado;
+	cout << "O resultado eh: " <<  resultado;
 
 	return 0;
 }

@@ -13,22 +13,22 @@ using std::cout, std::cin;
 
 int main()
 {
-    int ano_nascimento{}, ano_atual{};
+    int anoNascimento{}, anoAtual{};
 
     cout << "Qual o ano de nascimento da pessoa? ";
-    cin >> ano_nascimento;
+    cin >> anoNascimento;
     cout << "Qual o ano atual? ";
-    cin >> ano_atual;
+    cin >> anoAtual;
 
-    int idade{ano_atual - ano_nascimento}; 
-    int idade_meses{idade * 12}; 
-    int idade_dias{idade * 365}; 
-    int idade_semanas{idade_dias / 7};
+    int idade{anoAtual - anoNascimento},
+    idadeMeses{idade * 12},
+    idadeDias{idade * 365}, 
+    idadeSemanas{idadeDias / 7};
 
     cout << "Idade em anos: " << idade << '\n';
-    cout << "Idade em meses: " << idade_meses << '\n';
-    cout << "Idade em dias: " << idade_dias<< '\n';
-    cout << "Idade em semanas: " << idade_semanas << '\n';
+    cout << "Idade em meses: " << idadeMeses << '\n';
+    cout << "Idade em dias: " << idadeDias<< '\n';
+    cout << "Idade em semanas: " << idadeSemanas << '\n';
 
     return 0;
 }

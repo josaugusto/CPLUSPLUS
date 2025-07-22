@@ -9,16 +9,16 @@ using std::cout, std::cin;
 
 int main()
 {
-    float salario_minimo{}, salario_funcionario;
+    float salarioMinimo{}, salarioFuncionario;
 
     cout << "Qual o salario(R$) minimo vigente? ";
-    cin >> salario_minimo;
+    cin >> salarioMinimo;
     cout << "Qual o salario(R$) do funcionario? ";
-    cin >> salario_funcionario;
+    cin >> salarioFuncionario;
 
-    float qtd_salarios{ salario_funcionario / salario_minimo };
+    float salarios{ salarioFuncionario / salarioMinimo };
 
-    cout << "A quantidade de salarios minimos que o funcionarios recebe eh: " << qtd_salarios << " salarios minimos.";
+    cout << "A quantidade de salarios minimos que o funcionarios recebe eh: " << salarios << " salarios minimos.";
 
     return 0;
 }

@@ -9,19 +9,19 @@ using std::cout, std::cin;
 
 int main()
 {
-    double salario{}, conta_1{}, conta_2{};
+    double salario{}, conta1{}, conta2{};
 
     cout << "Salario: ";
     cin >> salario;
     cout << "Primeira Conta: ";
-    cin >> conta_1;
+    cin >> conta1;
     cout << "Segunda Conta: ";
-    cin >> conta_2;
+    cin >> conta2;
 
-    double multa{conta_1 * 0.02 + conta_2 * 0.02};
-    double salario_restante{salario - (conta_1 + conta_2 + multa)};
+    double multa{ conta1 * 0.02 + conta2 * 0.02 };
+    double salarioRestante{ salario - (conta1 + conta2 + multa) };
 
-    cout << "Apos o pagamento das contas e multa o salario final eh: " << salario_restante;
+    cout << "Apos o pagamento das contas e multa o salario final eh: " << salarioRestante;
     
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -7,15 +8,16 @@ using namespace std;
 
 int main()
 {
-    double cateto_a{}, cateto_b{};
+    double catetoA{}, catetoB{};
 
     cout << "Informe o valor do cateto A: ";
-    cin >> cateto_a;
+    cin >> catetoA;
     cout << "Informe o valor do cateto B: ";
-    cin >> cateto_b;
+    cin >> catetoB;
 
-    double hipotenusa{ sqrt(pow(cateto_a, 2) + pow(cateto_b, 2)) };
+    double hipotenusa{ sqrt(pow(catetoA, 2) + pow(catetoB, 2)) };
 
+    cout << setprecision(2) << fixed;
     cout << "O valor da hipotenusa eh: " << hipotenusa;
 
     return 0;

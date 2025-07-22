@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using std::cout, std::cin;
 
@@ -13,6 +14,7 @@ int main()
 
 	float new_price{ price - price * 0.10f };
 
+	cout << std::setprecision(2) << std::fixed;
 	cout << "O preco do produto apos o desconto de 10% eh igual a: " << new_price << " R$";
 
 	return 0;
