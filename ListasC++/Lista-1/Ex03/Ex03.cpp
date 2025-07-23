@@ -1,24 +1,25 @@
 #include <iostream>
 
-using std::cout, std::cin;
+using std::cout; 
+using std::cin;
 
 /*
-  3. Faça um programa que receba dois números, calcule e mostre a divisão do primeiro número pelo segundo.
+  3. Faça um programa que receba dois números, calcule e mostre a resultadoisão do primeiro número pelo segundo.
 	Sabe-se que o segundo número não pode ser zero, portanto não é necessário se preocupar com validações.
 */
 
 int main()
 {
-	float num_1{}, num_2{};
+	float num1{}, num2{};
 
 	cout << "Insira o primeiro numero: ";
-	cin >> num_1;
+	cin >> num1;
 	cout << "Insira o segundo numero: ";
-	cin >> num_2;
+	cin >> num2;
 
-	float div{ num_1 / num_2 };
+	float resultado{ num1 / num2 };
 	
-	cout << num_1 << " / " << num_2 << " = " <<  div;
+	cout << num1 << " / " << num2 << " = " <<  resultado;
 
 	return 0;
 }
