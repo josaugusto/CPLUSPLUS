@@ -1,23 +1,24 @@
 #include <iostream>
 
-using std::cout, std::cin;
+using std::cout; 
+using std::cin;
 
 // 2. Faça um programa que receba três números, calcule e mostre a multiplicação desses números.
 
 int main()
 {
-    int num_1{}, num_2{}, num_3{};
+    int num1{}, num2{}, num3{};
 
     cout << "Insira o primeiro numero: ";
-    cin >> num_1;
+    cin >> num1;
     cout << "Insira o segundo numero: ";
-    cin >> num_2;
+    cin >> num2;
     cout << "Insira o terceiro numero: ";
-    cin >> num_3;
+    cin >> num3;
 
-    int result{ num_1 * num_2 * num_3 };
+    int resultado{ num1 * num2 * num3 };
 
-    cout << "Resultado: " << result;
+    cout << "resultado: " << resultado;
 
     return 0;
 }
