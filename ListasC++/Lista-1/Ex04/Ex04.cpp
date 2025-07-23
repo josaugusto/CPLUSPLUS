@@ -1,6 +1,7 @@
 #include <iostream>
 
-using std::cout, std::cin;
+using std::cout; 
+using std::cin;
 
 /*
 	4. Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas notas, considerando peso 2 para a primeira nota e peso 3 para a segunda nota.
@@ -8,16 +9,16 @@ using std::cout, std::cin;
 
 int main()
 {
-	float nota_1{}, nota_2{};
+	float nota1{}, nota2{};
 
 	cout << "Digite a primeira nota: ";
-	cin >> nota_1;
+	cin >> nota1;
 	cout << "Digite a segunda nota: ";
-	cin >> nota_2;
+	cin >> nota2;
 
-	float resultado{ (nota_1 * 2 + nota_2 * 3) / 2 };
+	float resultado{ (nota1 * 2 + nota2 * 3) / 2 };
 
-	cout << "O resultado eh: " <<  resultado;
+	cout << "Resultado: " <<  resultado;
 
 	return 0;
 }
