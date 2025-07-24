@@ -6,16 +6,16 @@ using std::cout, std::cin;
 
 int main()
 {
-    float base_maior{}, base_menor{}, altura{};
+    float baseMaior{}, baseMenor{}, altura{};
 
     cout << "Qual o valor da base maior do trapezio (cm)? ";
-    cin >> base_maior;
+    cin >> baseMaior;
     cout << "Qual o valor da base menor do trapezio (cm)? ";
-    cin >> base_menor;
+    cin >> baseMenor;
     cout << "Qual o valor da altura do trapezio (cm)? ";
     cin >> altura;
 
-    float area{ ((base_maior + base_menor) * altura) / 2.0f };
+    float area{ ((baseMaior + baseMenor) * altura) / 2.0f };
 
     cout << "A area do trapezio eh: " << area << " cm.";
     

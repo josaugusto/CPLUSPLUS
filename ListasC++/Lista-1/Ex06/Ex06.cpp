@@ -17,9 +17,9 @@ int main()
 	cin >> vendas;
 
 	float comissao{ vendas * 0.04f };
-	float salario_final{ salario + comissao };
+	float salarioFinal{ salario + comissao };
 
-	cout << "O salario final do funcionario eh: " << salario_final;
+	cout << "O salario final do funcionario eh: " << salarioFinal;
 	
 	return 0;
 }

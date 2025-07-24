@@ -1,19 +1,20 @@
 #include <iostream>
 
-using std::cout, std::cin;
+using std::cout; 
+using std::cin;
 
 // 11. Faça um programa que calcule e mostre a área de um losango. Sabe-se que: A = (diagonal maior * diagonal menor) / 2
 
 int main()
 {
-    float diagonal_maior{}, diagonal_menor{};
+    float diagonalMaior{}, diagonalMenor{};
 
     cout << "Qual o valor da diagonal maior do losango (cm)? ";
-    cin >> diagonal_maior;
+    cin >> diagonalMaior;
     cout << "Qual o valor da diagonal menor do losango (cm)? ";
-    cin >> diagonal_menor;
+    cin >> diagonalMenor;
 
-    float area{ (diagonal_maior * diagonal_menor) / 2.0f };
+    float area{ (diagonalMaior * diagonalMenor) / 2.0f };
 
     cout << "A area do losango eh: " << area << " cm";
 

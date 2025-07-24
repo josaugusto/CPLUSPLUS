@@ -12,10 +12,10 @@ int main()
 	cout << "Insira o preco do produto: ";
 	cin >> price;
 
-	float new_price{ price - price * 0.10f };
+	float newPrice{ price - price * 0.10f };
 
 	cout << std::setprecision(2) << std::fixed;
-	cout << "O preco do produto apos o desconto de 10% eh igual a: " << new_price << " R$";
+	cout << "O preco do produto apos o desconto de 10% eh igual a: " << newPrice << " R$";
 
 	return 0;
 }

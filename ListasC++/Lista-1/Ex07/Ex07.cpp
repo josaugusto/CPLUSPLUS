@@ -15,11 +15,11 @@ int main()
 	cout << "Qual seu peso(kg)? ";
 	cin >> peso;
 
-	float peso_engordar{ peso + peso * 0.15f }; 
-	float peso_emagrecer{ peso - peso * 0.20f };
+	float pesoEngordar{ peso + peso * 0.15f }; 
+	float pesoEmagrecer{ peso - peso * 0.20f };
 
-	cout << "O seu peso caso voce engorde 15% eh de: " << peso_engordar << '\n';
-	cout << "O seu peso caso voce emagreca 20% eh de: " << peso_emagrecer << '\n';
+	cout << "O seu peso caso voce engorde 15% eh de: " << pesoEngordar << '\n';
+	cout << "O seu peso caso voce emagreca 20% eh de: " << pesoEmagrecer << '\n';
 
 	return 0;
 }
