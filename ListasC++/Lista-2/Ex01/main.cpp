@@ -22,7 +22,6 @@ int main()
 
     std::cout << std::fixed << std::setprecision(2);
     std::cout << "Media: " << media << '\n';
-    
 
     if (media >= 7.0)
         std::cout << "Aprovado!";
