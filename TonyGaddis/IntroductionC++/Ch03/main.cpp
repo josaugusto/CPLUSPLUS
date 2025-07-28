@@ -17,7 +17,6 @@ int main()
     std::cout << "Total number of lines: " << totalLines << '\n';
     std::cout << "Lines with comments: " << totalLinesWithComments << '\n';
     std::cout << "Lines without comments: " << totalLinesNoComments << '\n';
-    
 
     return 0;
 }
