@@ -8,13 +8,13 @@
 
 int main()
 {
-    const int totalLines{ 1050 };
+    const int TOTAL_LINES{ 1050 };
     int totalLinesWithComments{}, totalLinesNoComments{};
 
-    totalLinesWithComments = totalLines * 0.36;
-    totalLinesNoComments = totalLines - (totalLines * 0.36);
+    totalLinesWithComments = TOTAL_LINES * 0.36;
+    totalLinesNoComments = TOTAL_LINES - (TOTAL_LINES * 0.36);
 
-    std::cout << "Total number of lines: " << totalLines << '\n';
+    std::cout << "Total number of lines: " << TOTAL_LINES << '\n';
     std::cout << "Lines with comments: " << totalLinesWithComments << '\n';
     std::cout << "Lines without comments: " << totalLinesNoComments << '\n';
 
