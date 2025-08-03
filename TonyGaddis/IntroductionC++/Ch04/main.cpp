@@ -13,11 +13,10 @@ int main()
 {
     constexpr float meal{ 88.67f };
     constexpr float taxRate{ 0.0675f };
-
-    const float taxAmount{ meal * taxRate };
-    const float subTotal{ taxAmount + meal };
-    const float tipAmount{ subTotal  * 0.20  };
-    const float totalBill{ subTotal + tipAmount  };
+    constexpr float taxAmount{ meal * taxRate };
+    constexpr float subTotal{ taxAmount + meal };
+    constexpr float tipAmount{ subTotal  * 0.20  };
+    constexpr float totalBill{ subTotal + tipAmount  };
     
     std::cout << std::fixed << std::setprecision(2);
     std::cout << "Meal cost: $" << meal << '\n';
