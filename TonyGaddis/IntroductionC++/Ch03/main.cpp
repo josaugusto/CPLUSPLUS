@@ -8,7 +8,7 @@
 
 int main()
 {
-    const int TOTAL_LINES{ 1050 };
+    constexpr int TOTAL_LINES{ 1050 };
     int totalLinesWithComments{}, totalLinesNoComments{};
 
     totalLinesWithComments = TOTAL_LINES * 0.36;
