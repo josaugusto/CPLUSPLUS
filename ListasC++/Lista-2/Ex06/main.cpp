@@ -26,6 +26,7 @@ int main()
     std::cout << "1 - Media entre os dois numeros.\n";
     std::cout << "2 - Diferenca do maior pelo menor.\n";
     std::cout << "3 - O produto entre os dois numeros.\n";
+    std::cout << "-> ";
     std::cin >> op;
     
     switch (op)
