@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 /*
     2. The Golden Ratio
@@ -10,5 +11,13 @@
 
 int main()
 {
+    constexpr double width{1.62 * 5.00};
+
+    std::cout << std::fixed << std::showpoint << std::setprecision(2);
+
+    std::cout << "Width for a rectangle with height 5 cm is: " << width << " cm\n";
+
     return 0;
 }
+
+// Completed
