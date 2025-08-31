@@ -16,7 +16,7 @@ int main()
     constexpr double weightStones{weightPounds / 14};
     constexpr double weightKilograms{weightStones * 6.35};
 
-    std::cout << std::fixed << std::setprecision(2);
+    std::cout << std::fixed << std::showpoint << std::setprecision(2);
     std::cout << "Weight Stones: " << weightStones << " stones\n";
     std::cout << "Weight Kilograms: " << weightKilograms << " kilograms\n";
 
