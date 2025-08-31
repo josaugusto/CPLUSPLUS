@@ -18,7 +18,7 @@ int main()
     constexpr float tipAmount{ subTotal  * 0.20  };
     constexpr float totalBill{ subTotal + tipAmount  };
     
-    std::cout << std::fixed << std::setprecision(2);
+    std::cout << std::fixed << std::showpoint << std::setprecision(2);
     std::cout << "Meal cost: $" << meal << '\n';
     std::cout << "Tax amount: $" << taxAmount << '\n';
     std::cout << "Tip amount: $" << tipAmount << '\n';
