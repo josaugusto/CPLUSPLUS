@@ -19,7 +19,7 @@ int main()
 
     double salarioReajustado{};
 
-    std::cout << std::fixed << std::setprecision(2);
+    std::cout << std::fixed << std::showpoint << std::setprecision(2);
 
     if (salario <= 300.00)
     {
