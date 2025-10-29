@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 /*
     3. Display Count of Lines
         Write a program that displays the count of lines with and without comments for a
@@ -12,11 +14,13 @@ int main()
     int totalLinesWithComments{}, totalLinesNoComments{};
 
     totalLinesWithComments = TOTAL_LINES * 0.36;
-    totalLinesNoComments = TOTAL_LINES - (TOTAL_LINES * 0.36);
+    totalLinesNoComments = TOTAL_LINES - totalLinesWithComments;
 
-    std::cout << "Total number of lines: " << TOTAL_LINES << '\n';
-    std::cout << "Lines with comments: " << totalLinesWithComments << '\n';
-    std::cout << "Lines without comments: " << totalLinesNoComments << '\n';
+    cout << "Total number of lines: " << TOTAL_LINES << '\n';
+    cout << "Lines with comments: " << totalLinesWithComments << '\n';
+    cout << "Lines without comments: " << totalLinesNoComments << '\n';
 
     return 0;
 }
+
+// Completed

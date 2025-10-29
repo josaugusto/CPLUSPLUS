@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iomanip>
 
+using namespace std;
+
 /*
     5. Pounds to Kilograms
         The SI system of units is an internationally agreed decimal system of measurement that
@@ -12,13 +14,13 @@
 
 int main()
 {
-    constexpr double weightPounds{166.11831}; // 75.35 kg
-    constexpr double weightStones{weightPounds / 14};
-    constexpr double weightKilograms{weightStones * 6.35};
+    constexpr double weightPounds{ 166.11831 }; // 75.35 kg
+    constexpr double weightStones{ weightPounds / 14 };
+    constexpr double weightKilograms{ weightStones * 6.35 };
 
-    std::cout << std::fixed << std::showpoint << std::setprecision(2);
-    std::cout << "Weight Stones: " << weightStones << " stones\n";
-    std::cout << "Weight Kilograms: " << weightKilograms << " kilograms\n";
+    cout << fixed << showpoint << setprecision(2);
+    cout << "Weight Stones: " << weightStones << " stones\n";
+    cout << "Weight Kilograms: " << weightKilograms << " kilograms\n";
 
     return 0;
 }

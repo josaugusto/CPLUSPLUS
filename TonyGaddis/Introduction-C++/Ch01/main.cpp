@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 /*
     1. Product of Three Numbers
         Write a program that assigns the values 10, 20, and 30 to three integer variables and
@@ -12,7 +14,9 @@ int main()
 
     int product{ num1 * num2 * num3 };
 
-    std::cout << "Product: " << product << '\n';
+    cout << "Product: " << product << '\n';
 
     return 0;
 }
+
+// Completed

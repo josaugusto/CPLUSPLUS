@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iomanip>
 
+using namespace std;
+
 /*
     4. Restaurant Bill
         Write a program that computes the tax and tip on a restaurant bill for a patron with
@@ -18,11 +20,11 @@ int main()
     constexpr float tipAmount{ subTotal  * 0.20  };
     constexpr float totalBill{ subTotal + tipAmount  };
     
-    std::cout << std::fixed << std::showpoint << std::setprecision(2);
-    std::cout << "Meal cost: $" << meal << '\n';
-    std::cout << "Tax amount: $" << taxAmount << '\n';
-    std::cout << "Tip amount: $" << tipAmount << '\n';
-    std::cout << "Total bill: $" << totalBill << '\n';
+    cout << fixed << showpoint << setprecision(2);
+    cout << "Meal cost: $" << meal << '\n';
+    cout << "Tax amount: $" << taxAmount << '\n';
+    cout << "Tip amount: $" << tipAmount << '\n';
+    cout << "Total bill: $" << totalBill << '\n';
 
     return 0;
 }
