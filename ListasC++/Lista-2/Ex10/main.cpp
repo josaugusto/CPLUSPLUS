@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iomanip>
 
+using namespace std;
+
 /*
     10. O custo ao consumidor de um carro novo é a soma do custo de fábrica com a porcentagem do distribuidor e com os impostos, ambos aplicados ao custo de fábrica. Sabe-se que as porcentagens são as mesmas que estão na tabela a seguir. Faça um programa que receba o custo de fábrica de um carro e mostre o custo ao consumidor.
 
@@ -15,8 +17,8 @@ int main()
 {
     double custoFabrica{};
 
-    std::cout << "Qual o custo de fabrica do carro(R$)? ";
-    std::cin >> custoFabrica;
+    cout << "Qual o custo de fabrica do carro(R$)? ";
+    cin >> custoFabrica;
 
     double custoConsumidor{};
 
@@ -27,8 +29,8 @@ int main()
     else
         custoConsumidor = custoFabrica + (custoFabrica * 0.15) + (custoFabrica * 0.20);
 
-    std::cout << std::fixed << std::showpoint << std::setprecision(2);
-    std::cout << "Custo ao consumidor = R$ " << custoConsumidor << '\n'; 
+    cout << fixed << showpoint << setprecision(2);
+    cout << "Custo ao consumidor = R$ " << custoConsumidor << '\n'; 
 
     return 0;
 }

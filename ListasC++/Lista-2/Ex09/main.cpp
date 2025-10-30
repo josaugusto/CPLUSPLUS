@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iomanip>
 
+using namespace std;
+
 /*
     9. Um banco concederá um crédito especial aos seus clientes de acordo com o saldo médio no último ano. Faça um programa que receba o saldo médio de um cliente e calcule o valor do crédito, de acordo com a tabela a seguir. Mostre o saldo médio e o valor do crédito.
 
@@ -16,16 +18,16 @@ int main()
 {
     double saldoCliente{}, creditoCliente{};
 
-    std::cout << "Qual o saldo do cliente(R$)? ";
-    std::cin >> saldoCliente;
+    cout << "Qual o saldo do cliente(R$)? ";
+    cin >> saldoCliente;
 
     if (saldoCliente <= 200.00) creditoCliente = saldoCliente * 0.10;
     else if (saldoCliente <= 300.00) creditoCliente = saldoCliente * 0.20;
     else if ( saldoCliente <= 400.00) creditoCliente = saldoCliente * 0.25;
     else creditoCliente = saldoCliente * 0.30;
 
-    std::cout << std::fixed << std::showpoint << std::setprecision(2);
-    std::cout << "Saldo do Cliente: " << saldoCliente << " R$\n" << "Credito do Cliente: " << creditoCliente << " R$\n";
+    cout << fixed << showpoint << setprecision(2);
+    cout << "Saldo do Cliente: " << saldoCliente << " R$\n" << "Credito do Cliente: " << creditoCliente << " R$\n";
 
     return 0;
 }

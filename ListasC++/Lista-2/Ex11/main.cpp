@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iomanip>
 
+using namespace std;
+
 /*
     11. Faça um programa que receba o salário de um funcionário e, usando a tabela a seguir, calcule e mostre o valor do aumento e o novo salário.
 
@@ -17,8 +19,8 @@ int main()
 {
     double salarioFuncionario{};
 
-    std::cout << "Salario (R$): ";
-    std::cin >> salarioFuncionario;
+    cout << "Salario (R$): ";
+    cin >> salarioFuncionario;
 
     float percentualAumento{};
 
@@ -29,10 +31,10 @@ int main()
 
     double aumento{salarioFuncionario*percentualAumento};
 
-    std::cout << std::fixed << std::showpoint << std::setprecision(2);
+    cout << fixed << showpoint << setprecision(2);
 
-    std::cout << "Valor do aumento: R$" << aumento << '\n';
-    std::cout << "Salario apos o aumento: R$" << salarioFuncionario + aumento;
+    cout << "Valor do aumento: R$" << aumento << '\n';
+    cout << "Salario apos o aumento: R$" << salarioFuncionario + aumento;
 
     return 0;
 }
