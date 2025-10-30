@@ -44,7 +44,5 @@ int main()
     else if (novoPreco <= 200.00) cout << "Caro\n";
     else cout << "Muito caro\n";
 
-    
-
     return 0;
 }
