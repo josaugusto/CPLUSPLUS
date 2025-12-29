@@ -18,7 +18,6 @@ int main()
 		cout << "Acesso permitido\n";
 	else
 		cout << "Acesso negado\n";
-	
 
 	return 0;
 }
