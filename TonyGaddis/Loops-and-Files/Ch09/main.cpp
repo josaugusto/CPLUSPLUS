@@ -43,7 +43,9 @@ int main()
             steps++;
         } 
     }
+
     cout << "the number of steps needed to reach 1 are " << steps << " steps"<< '\n';
+    
     return 0;
 }
 
