@@ -1,8 +1,6 @@
 #include <iostream>
 #include <iomanip>
 
-using namespace std;
-
 /*
     2. The Golden Ratio
         The golden ratio is a ratio that appears in nature and produces pleasing, harmonious
@@ -11,13 +9,12 @@ using namespace std;
         with height 5 cm so that it fulfills this ratio.
 */
 
-int main()
-{
+int main() {
     constexpr double width{ 1.62 * 5.00 };
 
-    cout << fixed << showpoint << setprecision(2);
+    std::cout << std::fixed << std::showpoint << std::setprecision(2);
 
-    cout << "Width for a rectangle with height 5 cm is: " << width << " cm\n";
+    std::cout << "Width for a rectangle with height 5 cm is: " << width << " cm\n";
 
     return 0;
 }

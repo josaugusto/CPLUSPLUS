@@ -1,8 +1,6 @@
 #include <iostream>
 #include <iomanip>
 
-using namespace std;
-
 /*
     4. Restaurant Bill
         Write a program that computes the tax and tip on a restaurant bill for a patron with
@@ -11,20 +9,20 @@ using namespace std;
         amount, and total bill on the screen.
 */
 
-int main()
-{
-    constexpr float meal{ 88.67f };
-    constexpr float taxRate{ 0.0675f };
-    constexpr float taxAmount{ meal * taxRate };
-    constexpr float subTotal{ taxAmount + meal };
-    constexpr float tipAmount{ subTotal  * 0.20  };
-    constexpr float totalBill{ subTotal + tipAmount  };
+int main() {
+    constexpr double meal{ 88.67 };
+    constexpr double taxRate{ 0.0675 };
+    constexpr double taxAmount{ meal * taxRate };
+    constexpr double subTotal{ taxAmount + meal };
+    constexpr double tipAmount{ subTotal  * 0.20  };
+    constexpr double totalBill{ subTotal + tipAmount  };
     
-    cout << fixed << showpoint << setprecision(2);
-    cout << "Meal cost: $" << meal << '\n';
-    cout << "Tax amount: $" << taxAmount << '\n';
-    cout << "Tip amount: $" << tipAmount << '\n';
-    cout << "Total bill: $" << totalBill << '\n';
+    std::cout << std::fixed << std::showpoint << std::setprecision(2);
+
+    std::cout << "Meal cost: $" << meal << '\n';
+    std::cout << "Tax amount: $" << taxAmount << '\n';
+    std::cout << "Tip amount: $" << tipAmount << '\n';
+    std::cout << "Total bill: $" << totalBill << '\n';
 
     return 0;
 }
